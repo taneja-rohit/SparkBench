@@ -1,0 +1,44 @@
+2015-06-15 18:08:45,040 [main] WARN  org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2015-06-15 18:08:45,695 [sparkDriver-akka.actor.default-dispatcher-4] INFO  akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+2015-06-15 18:08:45,742 [sparkDriver-akka.actor.default-dispatcher-4] INFO  Remoting - Starting remoting
+2015-06-15 18:08:46,090 [sparkDriver-akka.actor.default-dispatcher-4] INFO  Remoting - Remoting started; listening on addresses :[akka.tcp://sparkDriver@cit928:46050]
+2015-06-15 18:08:46,350 [main] INFO  org.spark-project.jetty.server.Server - jetty-8.y.z-SNAPSHOT
+2015-06-15 18:08:46,362 [main] INFO  org.spark-project.jetty.server.AbstractConnector - Started SocketConnector@0.0.0.0:40564
+2015-06-15 18:08:46,475 [main] INFO  org.spark-project.jetty.server.Server - jetty-8.y.z-SNAPSHOT
+2015-06-15 18:08:46,504 [main] INFO  org.spark-project.jetty.server.AbstractConnector - Started SelectChannelConnector@0.0.0.0:4040
+2015-06-15 18:08:53,355 [dag-scheduler-event-loop] INFO  org.apache.hadoop.mapred.FileInputFormat - Total input paths to process : 1
+2015-06-15 18:09:07,266 [dag-scheduler-event-loop] INFO  org.apache.hadoop.mapred.FileInputFormat - Total input paths to process : 1
+2015-06-15 18:09:57,923 [main] INFO  org.spark-project.jetty.server.handler.ContextHandler - stopped o.s.j.s.ServletContextHandler{/metrics/json,null}
+2015-06-15 18:09:57,923 [main] INFO  org.spark-project.jetty.server.handler.ContextHandler - stopped o.s.j.s.ServletContextHandler{/stages/stage/kill,null}
+2015-06-15 18:09:57,923 [main] INFO  org.spark-project.jetty.server.handler.ContextHandler - stopped o.s.j.s.ServletContextHandler{/,null}
+2015-06-15 18:09:57,924 [main] INFO  org.spark-project.jetty.server.handler.ContextHandler - stopped o.s.j.s.ServletContextHandler{/static,null}
+2015-06-15 18:09:57,924 [main] INFO  org.spark-project.jetty.server.handler.ContextHandler - stopped o.s.j.s.ServletContextHandler{/executors/threadDump/json,null}
+2015-06-15 18:09:57,924 [main] INFO  org.spark-project.jetty.server.handler.ContextHandler - stopped o.s.j.s.ServletContextHandler{/executors/threadDump,null}
+2015-06-15 18:09:57,925 [main] INFO  org.spark-project.jetty.server.handler.ContextHandler - stopped o.s.j.s.ServletContextHandler{/executors/json,null}
+2015-06-15 18:09:57,925 [main] INFO  org.spark-project.jetty.server.handler.ContextHandler - stopped o.s.j.s.ServletContextHandler{/executors,null}
+2015-06-15 18:09:57,925 [main] INFO  org.spark-project.jetty.server.handler.ContextHandler - stopped o.s.j.s.ServletContextHandler{/environment/json,null}
+2015-06-15 18:09:57,926 [main] INFO  org.spark-project.jetty.server.handler.ContextHandler - stopped o.s.j.s.ServletContextHandler{/environment,null}
+2015-06-15 18:09:57,926 [main] INFO  org.spark-project.jetty.server.handler.ContextHandler - stopped o.s.j.s.ServletContextHandler{/storage/rdd/json,null}
+2015-06-15 18:09:57,926 [main] INFO  org.spark-project.jetty.server.handler.ContextHandler - stopped o.s.j.s.ServletContextHandler{/storage/rdd,null}
+2015-06-15 18:09:57,927 [main] INFO  org.spark-project.jetty.server.handler.ContextHandler - stopped o.s.j.s.ServletContextHandler{/storage/json,null}
+2015-06-15 18:09:57,927 [main] INFO  org.spark-project.jetty.server.handler.ContextHandler - stopped o.s.j.s.ServletContextHandler{/storage,null}
+2015-06-15 18:09:57,927 [main] INFO  org.spark-project.jetty.server.handler.ContextHandler - stopped o.s.j.s.ServletContextHandler{/stages/pool/json,null}
+2015-06-15 18:09:57,928 [main] INFO  org.spark-project.jetty.server.handler.ContextHandler - stopped o.s.j.s.ServletContextHandler{/stages/pool,null}
+2015-06-15 18:09:57,928 [main] INFO  org.spark-project.jetty.server.handler.ContextHandler - stopped o.s.j.s.ServletContextHandler{/stages/stage/json,null}
+2015-06-15 18:09:57,928 [main] INFO  org.spark-project.jetty.server.handler.ContextHandler - stopped o.s.j.s.ServletContextHandler{/stages/stage,null}
+2015-06-15 18:09:57,928 [main] INFO  org.spark-project.jetty.server.handler.ContextHandler - stopped o.s.j.s.ServletContextHandler{/stages/json,null}
+2015-06-15 18:09:57,929 [main] INFO  org.spark-project.jetty.server.handler.ContextHandler - stopped o.s.j.s.ServletContextHandler{/stages,null}
+2015-06-15 18:09:57,929 [main] INFO  org.spark-project.jetty.server.handler.ContextHandler - stopped o.s.j.s.ServletContextHandler{/jobs/job/json,null}
+2015-06-15 18:09:57,929 [main] INFO  org.spark-project.jetty.server.handler.ContextHandler - stopped o.s.j.s.ServletContextHandler{/jobs/job,null}
+2015-06-15 18:09:57,929 [main] INFO  org.spark-project.jetty.server.handler.ContextHandler - stopped o.s.j.s.ServletContextHandler{/jobs/json,null}
+2015-06-15 18:09:57,930 [main] INFO  org.spark-project.jetty.server.handler.ContextHandler - stopped o.s.j.s.ServletContextHandler{/jobs,null}
+2015-06-15 18:09:58,087 [sparkDriver-akka.actor.default-dispatcher-3] INFO  akka.remote.RemoteActorRefProvider$RemotingTerminator - Shutting down remote daemon.
+2015-06-15 18:09:58,092 [sparkDriver-akka.actor.default-dispatcher-3] INFO  akka.remote.RemoteActorRefProvider$RemotingTerminator - Remote daemon shut down; proceeding with flushing remote transports.
+2015-06-15 18:10:25,422 [main] WARN  org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2015-06-15 18:10:26,122 [sparkDriver-akka.actor.default-dispatcher-4] INFO  akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+2015-06-15 18:10:26,166 [sparkDriver-akka.actor.default-dispatcher-4] INFO  Remoting - Starting remoting
+2015-06-15 18:10:26,474 [sparkDriver-akka.actor.default-dispatcher-4] INFO  Remoting - Remoting started; listening on addresses :[akka.tcp://sparkDriver@cit928:39107]
+2015-06-15 18:10:26,663 [main] INFO  org.spark-project.jetty.server.Server - jetty-8.y.z-SNAPSHOT
+2015-06-15 18:10:26,676 [main] INFO  org.spark-project.jetty.server.AbstractConnector - Started SocketConnector@0.0.0.0:36873
+2015-06-15 18:10:26,792 [main] INFO  org.spark-project.jetty.server.Server - jetty-8.y.z-SNAPSHOT
+2015-06-15 18:10:26,824 [main] INFO  org.spark-project.jetty.server.AbstractConnector - Started SelectChannelConnector@0.0.0.0:4040

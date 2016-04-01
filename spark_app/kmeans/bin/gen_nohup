@@ -1,0 +1,222 @@
+++ dirname ./gen_data.sh
++ bin=.
+++ cd .
+++ pwd
++ bin=/home/hduser/SparkBench/spark_app/kmeans/bin
++ echo '========== preparing kmeans data =========='
+========== preparing kmeans data ==========
+++ cd /home/hduser/SparkBench/spark_app/kmeans/bin/../
+++ pwd
++ DIR=/home/hduser/SparkBench/spark_app/kmeans
++ . /home/hduser/SparkBench/spark_app/kmeans/../bin/config.sh
+++ this=/home/hduser/SparkBench/spark_app/kmeans/../bin/config.sh
+++++ dirname -- /home/hduser/SparkBench/spark_app/kmeans/../bin/config.sh
++++ cd -P -- /home/hduser/SparkBench/spark_app/kmeans/../bin
++++ pwd -P
+++ bin=/home/hduser/SparkBench/spark_app/bin
++++ basename -- /home/hduser/SparkBench/spark_app/kmeans/../bin/config.sh
+++ script=config.sh
+++ this=/home/hduser/SparkBench/spark_app/bin/config.sh
+++ SPARK_VERSION=1.3.1
+++ master=cit928
+++ MC_LIST=localhost
+++ SPARK_MASTER=spark://cit928:7077
+++ HDFS_URL=hdfs://cit928:8020
+++ export BENCH_VERSION=1.0
+++ BENCH_VERSION=1.0
+++ '[' -z '' ']'
+++ export MllibJarDir=/home/hduser/SparkBench
+++ MllibJarDir=/home/hduser/SparkBench
+++ '[' -z '' ']'
++++ dirname /home/hduser/SparkBench/spark_app/bin/config.sh
+++ export BENCH_HOME=/home/hduser/SparkBench/spark_app/bin/..
+++ BENCH_HOME=/home/hduser/SparkBench/spark_app/bin/..
+++ '[' -z '' ']'
+++ export BENCH_CONF=/home/hduser/SparkBench/spark_app/bin/../bin
+++ BENCH_CONF=/home/hduser/SparkBench/spark_app/bin/../bin
+++ '[' -f /home/hduser/SparkBench/spark_app/bin/../bin/funcs.sh ']'
+++ . /home/hduser/SparkBench/spark_app/bin/../bin/funcs.sh
+++ '[' -z '' ']'
+++ export SPARK_HOME=/home/hduser/spark-1.3.1
+++ SPARK_HOME=/home/hduser/spark-1.3.1
+++ '[' -z /usr/local/hadoop ']'
+++ '[' -z '' ']'
+++ export HIVE_HOME=/home/hduser/SparkBench/spark_app/bin/../common/hive-0.9.0-bin
+++ HIVE_HOME=/home/hduser/SparkBench/spark_app/bin/../common/hive-0.9.0-bin
+++ '[' 0 -gt 1 ']'
+++ HADOOP_CONF_DIR=/usr/local/hadoop/etc/hadoop
+++ export DATA_HDFS=/data/hadoopfs/dfs/data/Bench
+++ DATA_HDFS=/data/hadoopfs/dfs/data/Bench
+++ export BENCH_NUM=/home/hduser/SparkBench/spark_app/bin/../num
+++ BENCH_NUM=/home/hduser/SparkBench/spark_app/bin/../num
+++ '[' '!' -d /home/hduser/SparkBench/spark_app/bin/../num ']'
+++ export BENCH_REPORT=/home/hduser/SparkBench/spark_app/myfile.txt
+++ BENCH_REPORT=/home/hduser/SparkBench/spark_app/myfile.txt
+++ export EXECUTOR_GLOBAL_MEM=100g
+++ EXECUTOR_GLOBAL_MEM=100g
+++ export STORAGE_LEVEL=MEMORY_AND_DISK
+++ STORAGE_LEVEL=MEMORY_AND_DISK
+++ export MEM_FRACTION_GLOBAL=0.6
+++ MEM_FRACTION_GLOBAL=0.6
+++ export COMPRESS_GLOBAL=0
+++ COMPRESS_GLOBAL=0
+++ export COMPRESS_CODEC_GLOBAL=org.apache.hadoop.io.compress.DefaultCodec
+++ COMPRESS_CODEC_GLOBAL=org.apache.hadoop.io.compress.DefaultCodec
++ . /home/hduser/SparkBench/spark_app/kmeans/bin/config.sh
+++ APP=KMeans
+++ INPUT_HDFS=/data/hadoopfs/dfs/data/Bench/KMeans/Input
+++ OUTPUT_HDFS=/data/hadoopfs/dfs/data/Bench/KMeans/Output
+++ '[' 0 -eq 1 ']'
+++ NUM_OF_POINTS=1000
+++ NUM_OF_CLUSTERS=10
+++ DIMENSIONS=20
+++ SCALING=0.6
+++ NUM_OF_PARTITION=10
+++ MAX_ITERATION=5
+++ NUM_RUN=1
+++ APP_MASTER=spark://cit928:7077
+++ nexe=10
+++ dmem=1g
+++ emem=1g
+++ '[' -n 100g ']'
+++ emem=100g
+++ ecore=6
+++ memoryFraction=0.48
+++ '[' -n 0.6 ']'
+++ memoryFraction=0.6
+++ rdd_compression=false
+++ spark_ser=KryoSerializer
+++ rddcodec=lzf
+++ SPARK_OPT='--conf spark.storage.memoryFraction=0.6 --conf spark.executor.memory=100g  --conf spark.serializer=org.apache.spark.serializer.KryoSerializer --conf spark.rdd.compress=false --conf spark.io.compression.codec=lzf --conf spark.default.parallelism='
+++ YARN_OPT=
++ '[' 0 -eq 1 ']'
++ COMPRESS_OPT='-compress false'
++ /usr/local/hadoop/bin/hadoop fs -rm -r /data/hadoopfs/dfs/data/Bench/KMeans/Input
+Picked up JAVA_TOOL_OPTIONS: -Dos.arch=ppc64le
+15/06/08 02:43:24 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+rm: `/data/hadoopfs/dfs/data/Bench/KMeans/Input': No such file or directory
++ JAR=/home/hduser/SparkBench/spark_app/kmeans/target/scala-2.10/kmeans-app_2.10-1.0.jar
++ CLASS=kmeans_min.src.main.scala.KmeansDataGen
++ OPTION='1000 10 20 0.6 10 /data/hadoopfs/dfs/data/Bench/KMeans/Input'
++ exec /home/hduser/spark-1.3.1/bin/spark-submit --class kmeans_min.src.main.scala.KmeansDataGen --master spark://cit928:7077 /home/hduser/SparkBench/spark_app/kmeans/target/scala-2.10/kmeans-app_2.10-1.0.jar 1000 10 20 0.6 10 /data/hadoopfs/dfs/data/Bench/KMeans/Input
++ tee /tmp/kmeans_gendata.log
+Picked up JAVA_TOOL_OPTIONS: -Dos.arch=ppc64le
+15/06/08 02:43:26 INFO spark.SparkContext: Running Spark version 1.3.1
+15/06/08 02:43:26 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+15/06/08 02:43:27 INFO spark.SecurityManager: Changing view acls to: hduser
+15/06/08 02:43:27 INFO spark.SecurityManager: Changing modify acls to: hduser
+15/06/08 02:43:27 INFO spark.SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(hduser); users with modify permissions: Set(hduser)
+15/06/08 02:43:27 INFO slf4j.Slf4jLogger: Slf4jLogger started
+15/06/08 02:43:27 INFO Remoting: Starting remoting
+15/06/08 02:43:27 INFO Remoting: Remoting started; listening on addresses :[akka.tcp://sparkDriver@cit928:38014]
+15/06/08 02:43:27 INFO util.Utils: Successfully started service 'sparkDriver' on port 38014.
+15/06/08 02:43:27 INFO spark.SparkEnv: Registering MapOutputTracker
+15/06/08 02:43:27 INFO spark.SparkEnv: Registering BlockManagerMaster
+15/06/08 02:43:27 INFO storage.DiskBlockManager: Created local directory at /tmp/spark-2c98df5d-bb01-4715-9d60-927068e0d8b3/blockmgr-9e643abc-731a-4073-9a0e-15560392445c
+15/06/08 02:43:27 INFO storage.MemoryStore: MemoryStore started with capacity 265.1 MB
+15/06/08 02:43:27 INFO spark.HttpFileServer: HTTP File server directory is /tmp/spark-bbfad5d7-e823-43da-b007-cf32ea1d39a6/httpd-1919000a-3b23-49c1-8683-05875a2dfebe
+15/06/08 02:43:27 INFO spark.HttpServer: Starting HTTP Server
+15/06/08 02:43:27 INFO server.Server: jetty-8.y.z-SNAPSHOT
+15/06/08 02:43:27 INFO server.AbstractConnector: Started SocketConnector@0.0.0.0:42560
+15/06/08 02:43:27 INFO util.Utils: Successfully started service 'HTTP file server' on port 42560.
+15/06/08 02:43:27 INFO spark.SparkEnv: Registering OutputCommitCoordinator
+15/06/08 02:43:27 INFO server.Server: jetty-8.y.z-SNAPSHOT
+15/06/08 02:43:27 INFO server.AbstractConnector: Started SelectChannelConnector@0.0.0.0:4040
+15/06/08 02:43:27 INFO util.Utils: Successfully started service 'SparkUI' on port 4040.
+15/06/08 02:43:27 INFO ui.SparkUI: Started SparkUI at http://cit928:4040
+15/06/08 02:43:28 INFO spark.SparkContext: Added JAR file:/home/hduser/SparkBench/spark_app/kmeans/target/scala-2.10/kmeans-app_2.10-1.0.jar at http://9.37.251.70:42560/jars/kmeans-app_2.10-1.0.jar with timestamp 1433745808039
+15/06/08 02:43:28 INFO client.AppClient$ClientActor: Connecting to master akka.tcp://sparkMaster@cit928:7077/user/Master...
+15/06/08 02:43:28 INFO cluster.SparkDeploySchedulerBackend: Connected to Spark cluster with app ID app-20150608024328-0002
+15/06/08 02:43:28 INFO client.AppClient$ClientActor: Executor added: app-20150608024328-0002/0 on worker-20150605175949-cit928-54056 (cit928:54056) with 192 cores
+15/06/08 02:43:28 INFO cluster.SparkDeploySchedulerBackend: Granted executor ID app-20150608024328-0002/0 on hostPort cit928:54056 with 192 cores, 512.0 MB RAM
+15/06/08 02:43:28 INFO client.AppClient$ClientActor: Executor updated: app-20150608024328-0002/0 is now LOADING
+15/06/08 02:43:28 INFO client.AppClient$ClientActor: Executor updated: app-20150608024328-0002/0 is now RUNNING
+15/06/08 02:43:28 INFO netty.NettyBlockTransferService: Server created on 41600
+15/06/08 02:43:28 INFO storage.BlockManagerMaster: Trying to register BlockManager
+15/06/08 02:43:28 INFO storage.BlockManagerMasterActor: Registering block manager cit928:41600 with 265.1 MB RAM, BlockManagerId(<driver>, cit928, 41600)
+15/06/08 02:43:28 INFO storage.BlockManagerMaster: Registered BlockManager
+15/06/08 02:43:28 INFO cluster.SparkDeploySchedulerBackend: SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.0
+15/06/08 02:43:29 INFO Configuration.deprecation: mapred.tip.id is deprecated. Instead, use mapreduce.task.id
+15/06/08 02:43:29 INFO Configuration.deprecation: mapred.task.id is deprecated. Instead, use mapreduce.task.attempt.id
+15/06/08 02:43:29 INFO Configuration.deprecation: mapred.task.is.map is deprecated. Instead, use mapreduce.task.ismap
+15/06/08 02:43:29 INFO Configuration.deprecation: mapred.task.partition is deprecated. Instead, use mapreduce.task.partition
+15/06/08 02:43:29 INFO Configuration.deprecation: mapred.job.id is deprecated. Instead, use mapreduce.job.id
+15/06/08 02:43:29 INFO spark.SparkContext: Starting job: saveAsTextFile at KmeansDataGen.scala:39
+15/06/08 02:43:29 INFO scheduler.DAGScheduler: Got job 0 (saveAsTextFile at KmeansDataGen.scala:39) with 10 output partitions (allowLocal=false)
+15/06/08 02:43:29 INFO scheduler.DAGScheduler: Final stage: Stage 0(saveAsTextFile at KmeansDataGen.scala:39)
+15/06/08 02:43:29 INFO scheduler.DAGScheduler: Parents of final stage: List()
+15/06/08 02:43:29 INFO scheduler.DAGScheduler: Missing parents: List()
+15/06/08 02:43:29 INFO scheduler.DAGScheduler: Submitting Stage 0 (MapPartitionsRDD[3] at saveAsTextFile at KmeansDataGen.scala:39), which has no missing parents
+15/06/08 02:43:29 INFO storage.MemoryStore: ensureFreeSpace(129320) called with curMem=0, maxMem=278019440
+15/06/08 02:43:29 INFO storage.MemoryStore: Block broadcast_0 stored as values in memory (estimated size 126.3 KB, free 265.0 MB)
+15/06/08 02:43:29 INFO storage.MemoryStore: ensureFreeSpace(78442) called with curMem=129320, maxMem=278019440
+15/06/08 02:43:29 INFO storage.MemoryStore: Block broadcast_0_piece0 stored as bytes in memory (estimated size 76.6 KB, free 264.9 MB)
+15/06/08 02:43:29 INFO storage.BlockManagerInfo: Added broadcast_0_piece0 in memory on cit928:41600 (size: 76.6 KB, free: 265.1 MB)
+15/06/08 02:43:29 INFO storage.BlockManagerMaster: Updated info of block broadcast_0_piece0
+15/06/08 02:43:29 INFO spark.SparkContext: Created broadcast 0 from broadcast at DAGScheduler.scala:839
+15/06/08 02:43:29 INFO scheduler.DAGScheduler: Submitting 10 missing tasks from Stage 0 (MapPartitionsRDD[3] at saveAsTextFile at KmeansDataGen.scala:39)
+15/06/08 02:43:29 INFO scheduler.TaskSchedulerImpl: Adding task set 0.0 with 10 tasks
+15/06/08 02:43:30 INFO cluster.SparkDeploySchedulerBackend: Registered executor: Actor[akka.tcp://sparkExecutor@cit928:41169/user/Executor#-1167211532] with ID 0
+15/06/08 02:43:30 INFO scheduler.TaskSetManager: Starting task 0.0 in stage 0.0 (TID 0, cit928, PROCESS_LOCAL, 1323 bytes)
+15/06/08 02:43:30 INFO scheduler.TaskSetManager: Starting task 1.0 in stage 0.0 (TID 1, cit928, PROCESS_LOCAL, 1323 bytes)
+15/06/08 02:43:30 INFO scheduler.TaskSetManager: Starting task 2.0 in stage 0.0 (TID 2, cit928, PROCESS_LOCAL, 1323 bytes)
+15/06/08 02:43:30 INFO scheduler.TaskSetManager: Starting task 3.0 in stage 0.0 (TID 3, cit928, PROCESS_LOCAL, 1323 bytes)
+15/06/08 02:43:30 INFO scheduler.TaskSetManager: Starting task 4.0 in stage 0.0 (TID 4, cit928, PROCESS_LOCAL, 1323 bytes)
+15/06/08 02:43:30 INFO scheduler.TaskSetManager: Starting task 5.0 in stage 0.0 (TID 5, cit928, PROCESS_LOCAL, 1323 bytes)
+15/06/08 02:43:30 INFO scheduler.TaskSetManager: Starting task 6.0 in stage 0.0 (TID 6, cit928, PROCESS_LOCAL, 1323 bytes)
+15/06/08 02:43:30 INFO scheduler.TaskSetManager: Starting task 7.0 in stage 0.0 (TID 7, cit928, PROCESS_LOCAL, 1323 bytes)
+15/06/08 02:43:30 INFO scheduler.TaskSetManager: Starting task 8.0 in stage 0.0 (TID 8, cit928, PROCESS_LOCAL, 1323 bytes)
+15/06/08 02:43:30 INFO scheduler.TaskSetManager: Starting task 9.0 in stage 0.0 (TID 9, cit928, PROCESS_LOCAL, 1323 bytes)
+15/06/08 02:43:31 INFO storage.BlockManagerMasterActor: Registering block manager cit928:43601 with 265.1 MB RAM, BlockManagerId(0, cit928, 43601)
+15/06/08 02:43:31 INFO storage.BlockManagerInfo: Added broadcast_0_piece0 in memory on cit928:43601 (size: 76.6 KB, free: 265.1 MB)
+15/06/08 02:43:32 INFO scheduler.TaskSetManager: Finished task 6.0 in stage 0.0 (TID 6) in 1746 ms on cit928 (1/10)
+15/06/08 02:43:32 INFO scheduler.TaskSetManager: Finished task 2.0 in stage 0.0 (TID 2) in 1752 ms on cit928 (2/10)
+15/06/08 02:43:32 INFO scheduler.TaskSetManager: Finished task 0.0 in stage 0.0 (TID 0) in 1778 ms on cit928 (3/10)
+15/06/08 02:43:32 INFO scheduler.TaskSetManager: Finished task 1.0 in stage 0.0 (TID 1) in 1754 ms on cit928 (4/10)
+15/06/08 02:43:32 INFO scheduler.TaskSetManager: Finished task 3.0 in stage 0.0 (TID 3) in 1753 ms on cit928 (5/10)
+15/06/08 02:43:32 INFO scheduler.TaskSetManager: Finished task 7.0 in stage 0.0 (TID 7) in 1751 ms on cit928 (6/10)
+15/06/08 02:43:32 INFO scheduler.TaskSetManager: Finished task 5.0 in stage 0.0 (TID 5) in 1754 ms on cit928 (7/10)
+15/06/08 02:43:32 INFO scheduler.TaskSetManager: Finished task 9.0 in stage 0.0 (TID 9) in 1750 ms on cit928 (8/10)
+15/06/08 02:43:32 INFO scheduler.TaskSetManager: Finished task 4.0 in stage 0.0 (TID 4) in 1756 ms on cit928 (9/10)
+15/06/08 02:43:32 INFO scheduler.TaskSetManager: Finished task 8.0 in stage 0.0 (TID 8) in 1753 ms on cit928 (10/10)
+15/06/08 02:43:32 INFO scheduler.TaskSchedulerImpl: Removed TaskSet 0.0, whose tasks have all completed, from pool 
+15/06/08 02:43:32 INFO scheduler.DAGScheduler: Stage 0 (saveAsTextFile at KmeansDataGen.scala:39) finished in 3.080 s
+15/06/08 02:43:32 INFO scheduler.DAGScheduler: Job 0 finished: saveAsTextFile at KmeansDataGen.scala:39, took 3.284702 s
+15/06/08 02:43:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/metrics/json,null}
+15/06/08 02:43:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/stages/stage/kill,null}
+15/06/08 02:43:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/,null}
+15/06/08 02:43:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/static,null}
+15/06/08 02:43:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/executors/threadDump/json,null}
+15/06/08 02:43:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/executors/threadDump,null}
+15/06/08 02:43:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/executors/json,null}
+15/06/08 02:43:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/executors,null}
+15/06/08 02:43:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/environment/json,null}
+15/06/08 02:43:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/environment,null}
+15/06/08 02:43:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/storage/rdd/json,null}
+15/06/08 02:43:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/storage/rdd,null}
+15/06/08 02:43:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/storage/json,null}
+15/06/08 02:43:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/storage,null}
+15/06/08 02:43:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/stages/pool/json,null}
+15/06/08 02:43:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/stages/pool,null}
+15/06/08 02:43:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/stages/stage/json,null}
+15/06/08 02:43:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/stages/stage,null}
+15/06/08 02:43:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/stages/json,null}
+15/06/08 02:43:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/stages,null}
+15/06/08 02:43:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/jobs/job/json,null}
+15/06/08 02:43:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/jobs/job,null}
+15/06/08 02:43:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/jobs/json,null}
+15/06/08 02:43:33 INFO handler.ContextHandler: stopped o.s.j.s.ServletContextHandler{/jobs,null}
+15/06/08 02:43:33 INFO ui.SparkUI: Stopped Spark web UI at http://cit928:4040
+15/06/08 02:43:33 INFO scheduler.DAGScheduler: Stopping DAGScheduler
+15/06/08 02:43:33 INFO cluster.SparkDeploySchedulerBackend: Shutting down all executors
+15/06/08 02:43:33 INFO cluster.SparkDeploySchedulerBackend: Asking each executor to shut down
+15/06/08 02:43:33 INFO scheduler.OutputCommitCoordinator$OutputCommitCoordinatorActor: OutputCommitCoordinator stopped!
+15/06/08 02:43:33 INFO spark.MapOutputTrackerMasterActor: MapOutputTrackerActor stopped!
+15/06/08 02:43:33 INFO storage.MemoryStore: MemoryStore cleared
+15/06/08 02:43:33 INFO storage.BlockManager: BlockManager stopped
+15/06/08 02:43:33 INFO storage.BlockManagerMaster: BlockManagerMaster stopped
+15/06/08 02:43:33 INFO spark.SparkContext: Successfully stopped SparkContext
+15/06/08 02:43:33 INFO remote.RemoteActorRefProvider$RemotingTerminator: Shutting down remote daemon.
+15/06/08 02:43:33 INFO remote.RemoteActorRefProvider$RemotingTerminator: Remote daemon shut down; proceeding with flushing remote transports.
+15/06/08 02:43:33 INFO remote.RemoteActorRefProvider$RemotingTerminator: Remoting shut down.
++ exit 0

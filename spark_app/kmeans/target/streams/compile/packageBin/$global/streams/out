@@ -1,0 +1,27 @@
+[0m[[0minfo[0m] [0mPackaging /home/hduser/SparkBench/spark_app/kmeans/target/scala-2.10/kmeans-app_2.10-1.0.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	kmeans_min/src/main/scala/KmeansDataGen$$anonfun$main$1.class[0m
+[0m[[0mdebug[0m] [0m	  /home/hduser/SparkBench/spark_app/kmeans/target/scala-2.10/classes/kmeans_min/src/main/scala/KmeansDataGen$$anonfun$main$1.class[0m
+[0m[[0mdebug[0m] [0m	kmeans_min/src/main/scala/KmeansDataGen.class[0m
+[0m[[0mdebug[0m] [0m	  /home/hduser/SparkBench/spark_app/kmeans/target/scala-2.10/classes/kmeans_min/src/main/scala/KmeansDataGen.class[0m
+[0m[[0mdebug[0m] [0m	kmeans_min/src/main[0m
+[0m[[0mdebug[0m] [0m	  /home/hduser/SparkBench/spark_app/kmeans/target/scala-2.10/classes/kmeans_min/src/main[0m
+[0m[[0mdebug[0m] [0m	KmeansApp.class[0m
+[0m[[0mdebug[0m] [0m	  /home/hduser/SparkBench/spark_app/kmeans/target/scala-2.10/classes/KmeansApp.class[0m
+[0m[[0mdebug[0m] [0m	kmeans_min/src[0m
+[0m[[0mdebug[0m] [0m	  /home/hduser/SparkBench/spark_app/kmeans/target/scala-2.10/classes/kmeans_min/src[0m
+[0m[[0mdebug[0m] [0m	kmeans_min/src/main/scala/KmeansDataGen$.class[0m
+[0m[[0mdebug[0m] [0m	  /home/hduser/SparkBench/spark_app/kmeans/target/scala-2.10/classes/kmeans_min/src/main/scala/KmeansDataGen$.class[0m
+[0m[[0mdebug[0m] [0m	KmeansApp$$anonfun$2.class[0m
+[0m[[0mdebug[0m] [0m	  /home/hduser/SparkBench/spark_app/kmeans/target/scala-2.10/classes/KmeansApp$$anonfun$2.class[0m
+[0m[[0mdebug[0m] [0m	KmeansApp$$anonfun$1.class[0m
+[0m[[0mdebug[0m] [0m	  /home/hduser/SparkBench/spark_app/kmeans/target/scala-2.10/classes/KmeansApp$$anonfun$1.class[0m
+[0m[[0mdebug[0m] [0m	KmeansApp$$anonfun$1$$anonfun$apply$1.class[0m
+[0m[[0mdebug[0m] [0m	  /home/hduser/SparkBench/spark_app/kmeans/target/scala-2.10/classes/KmeansApp$$anonfun$1$$anonfun$apply$1.class[0m
+[0m[[0mdebug[0m] [0m	KmeansApp$.class[0m
+[0m[[0mdebug[0m] [0m	  /home/hduser/SparkBench/spark_app/kmeans/target/scala-2.10/classes/KmeansApp$.class[0m
+[0m[[0mdebug[0m] [0m	kmeans_min/src/main/scala[0m
+[0m[[0mdebug[0m] [0m	  /home/hduser/SparkBench/spark_app/kmeans/target/scala-2.10/classes/kmeans_min/src/main/scala[0m
+[0m[[0mdebug[0m] [0m	kmeans_min[0m
+[0m[[0mdebug[0m] [0m	  /home/hduser/SparkBench/spark_app/kmeans/target/scala-2.10/classes/kmeans_min[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m

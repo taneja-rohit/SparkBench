@@ -1,0 +1,236 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /home/hduser/SparkBench/spark_app/kmeans/target/scala-2.10/classes
+compile options:
+0 items
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.10.4
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+8 items
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/KmeansDataGen.scala -> /home/hduser/SparkBench/spark_app/kmeans/target/scala-2.10/classes/kmeans_min/src/main/scala/KmeansDataGen$$anonfun$main$1.class
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/KmeansDataGen.scala -> /home/hduser/SparkBench/spark_app/kmeans/target/scala-2.10/classes/kmeans_min/src/main/scala/KmeansDataGen$.class
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/KmeansDataGen.scala -> /home/hduser/SparkBench/spark_app/kmeans/target/scala-2.10/classes/kmeans_min/src/main/scala/KmeansDataGen.class
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/kmeans.scala -> /home/hduser/SparkBench/spark_app/kmeans/target/scala-2.10/classes/KmeansApp$$anonfun$1$$anonfun$apply$1.class
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/kmeans.scala -> /home/hduser/SparkBench/spark_app/kmeans/target/scala-2.10/classes/KmeansApp$$anonfun$1.class
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/kmeans.scala -> /home/hduser/SparkBench/spark_app/kmeans/target/scala-2.10/classes/KmeansApp$$anonfun$2.class
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/kmeans.scala -> /home/hduser/SparkBench/spark_app/kmeans/target/scala-2.10/classes/KmeansApp$.class
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/kmeans.scala -> /home/hduser/SparkBench/spark_app/kmeans/target/scala-2.10/classes/KmeansApp.class
+binary dependencies:
+8 items
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/KmeansDataGen.scala -> /home/hduser/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.3.0.jar
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/KmeansDataGen.scala -> /home/hduser/.ivy2/cache/org.apache.spark/spark-mllib_2.10/jars/spark-mllib_2.10-1.3.0.jar
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/KmeansDataGen.scala -> /home/hduser/.sbt/boot/scala-2.10.4/lib/scala-library.jar
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/KmeansDataGen.scala -> /usr/lib/jvm/java-8-openjdk-ppc64el/jre/lib/rt.jar
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/kmeans.scala -> /home/hduser/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.3.0.jar
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/kmeans.scala -> /home/hduser/.ivy2/cache/org.apache.spark/spark-mllib_2.10/jars/spark-mllib_2.10-1.3.0.jar
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/kmeans.scala -> /home/hduser/.sbt/boot/scala-2.10.4/lib/scala-library.jar
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/kmeans.scala -> /usr/lib/jvm/java-8-openjdk-ppc64el/jre/lib/rt.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+0 items
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+8 items
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/KmeansDataGen.scala -> kmeans_min.src.main.scala.KmeansDataGen
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/KmeansDataGen.scala -> kmeans_min.src.main.scala.KmeansDataGen$
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/KmeansDataGen.scala -> kmeans_min.src.main.scala.KmeansDataGen$$anonfun$main$1
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/kmeans.scala -> KmeansApp
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/kmeans.scala -> KmeansApp$
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/kmeans.scala -> KmeansApp$$anonfun$1
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/kmeans.scala -> KmeansApp$$anonfun$1$$anonfun$apply$1
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/kmeans.scala -> KmeansApp$$anonfun$2
+used names:
+125 items
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/KmeansDataGen.scala -> <
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/KmeansDataGen.scala -> <init>
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/KmeansDataGen.scala -> AnyRef
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/KmeansDataGen.scala -> Array
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/KmeansDataGen.scala -> ClassTag
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/KmeansDataGen.scala -> KMeans
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/KmeansDataGen.scala -> KMeansDataGenerator
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/KmeansDataGen.scala -> KMeansModel
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/KmeansDataGen.scala -> KmeansDataGen
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/KmeansDataGen.scala -> Predef
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/KmeansDataGen.scala -> SparkConf
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/KmeansDataGen.scala -> SparkContext
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/KmeansDataGen.scala -> String
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/KmeansDataGen.scala -> System
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/KmeansDataGen.scala -> Unit
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/KmeansDataGen.scala -> apache
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/KmeansDataGen.scala -> apply
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/KmeansDataGen.scala -> args
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/KmeansDataGen.scala -> augmentString
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/KmeansDataGen.scala -> clustering
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/KmeansDataGen.scala -> conf
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/KmeansDataGen.scala -> data
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/KmeansDataGen.scala -> doubleArrayOps
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/KmeansDataGen.scala -> exit
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/KmeansDataGen.scala -> generateKMeansRDD
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/KmeansDataGen.scala -> java
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/KmeansDataGen.scala -> kmeans_min
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/KmeansDataGen.scala -> lang
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/KmeansDataGen.scala -> length
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/KmeansDataGen.scala -> main
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/KmeansDataGen.scala -> map
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/KmeansDataGen.scala -> materializeClassTag
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/KmeansDataGen.scala -> mkString
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/KmeansDataGen.scala -> mllib
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/KmeansDataGen.scala -> numCluster
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/KmeansDataGen.scala -> numDim
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/KmeansDataGen.scala -> numPar
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/KmeansDataGen.scala -> numPoint
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/KmeansDataGen.scala -> org
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/KmeansDataGen.scala -> output
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/KmeansDataGen.scala -> package
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/KmeansDataGen.scala -> println
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/KmeansDataGen.scala -> saveAsTextFile
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/KmeansDataGen.scala -> sc
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/KmeansDataGen.scala -> scala
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/KmeansDataGen.scala -> scaling
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/KmeansDataGen.scala -> setAppName
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/KmeansDataGen.scala -> setSparkHome
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/KmeansDataGen.scala -> spark
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/KmeansDataGen.scala -> src
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/KmeansDataGen.scala -> stop
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/KmeansDataGen.scala -> toDouble
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/KmeansDataGen.scala -> toInt
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/KmeansDataGen.scala -> util
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/kmeans.scala -> +
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/kmeans.scala -> <
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/kmeans.scala -> <init>
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/kmeans.scala -> >
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/kmeans.scala -> AnyRef
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/kmeans.scala -> Array
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/kmeans.scala -> ClassTag
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/kmeans.scala -> Double
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/kmeans.scala -> Int
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/kmeans.scala -> K
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/kmeans.scala -> KMeans
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/kmeans.scala -> KMeansModel
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/kmeans.scala -> KmeansApp
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/kmeans.scala -> Predef
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/kmeans.scala -> SparkConf
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/kmeans.scala -> SparkContext
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/kmeans.scala -> String
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/kmeans.scala -> System
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/kmeans.scala -> Unit
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/kmeans.scala -> Vectors
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/kmeans.scala -> WSSSE
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/kmeans.scala -> apache
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/kmeans.scala -> apply
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/kmeans.scala -> args
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/kmeans.scala -> augmentString
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/kmeans.scala -> cache
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/kmeans.scala -> calculateRuns
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/kmeans.scala -> canBuildFrom
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/kmeans.scala -> clusterCenters
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/kmeans.scala -> clustering
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/kmeans.scala -> clusters
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/kmeans.scala -> computeCost
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/kmeans.scala -> conf
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/kmeans.scala -> data
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/kmeans.scala -> dense
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/kmeans.scala -> exit
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/kmeans.scala -> input
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/kmeans.scala -> java
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/kmeans.scala -> lang
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/kmeans.scala -> length
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/kmeans.scala -> linalg
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/kmeans.scala -> map
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/kmeans.scala -> materializeClassTag
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/kmeans.scala -> maxIterations
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/kmeans.scala -> mkString
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/kmeans.scala -> mllib
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/kmeans.scala -> org
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/kmeans.scala -> output
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/kmeans.scala -> package
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/kmeans.scala -> parsedData
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/kmeans.scala -> point
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/kmeans.scala -> predict
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/kmeans.scala -> prediction
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/kmeans.scala -> println
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/kmeans.scala -> refArrayOps
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/kmeans.scala -> runs
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/kmeans.scala -> s
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/kmeans.scala -> saveAsTextFile
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/kmeans.scala -> sc
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/kmeans.scala -> scala
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/kmeans.scala -> setAppName
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/kmeans.scala -> setSparkHome
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/kmeans.scala -> spark
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/kmeans.scala -> split
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/kmeans.scala -> stop
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/kmeans.scala -> textFile
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/kmeans.scala -> toDouble
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/kmeans.scala -> toInt
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/kmeans.scala -> toString
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/kmeans.scala -> train
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/kmeans.scala -> vectorsAndClusterIdx
+product stamps:
+8 items
+/home/hduser/SparkBench/spark_app/kmeans/target/scala-2.10/classes/KmeansApp$$anonfun$1$$anonfun$apply$1.class -> lastModified(1433745636000)
+/home/hduser/SparkBench/spark_app/kmeans/target/scala-2.10/classes/KmeansApp$$anonfun$1.class -> lastModified(1433745636000)
+/home/hduser/SparkBench/spark_app/kmeans/target/scala-2.10/classes/KmeansApp$$anonfun$2.class -> lastModified(1433745636000)
+/home/hduser/SparkBench/spark_app/kmeans/target/scala-2.10/classes/KmeansApp$.class -> lastModified(1433745636000)
+/home/hduser/SparkBench/spark_app/kmeans/target/scala-2.10/classes/KmeansApp.class -> lastModified(1433745636000)
+/home/hduser/SparkBench/spark_app/kmeans/target/scala-2.10/classes/kmeans_min/src/main/scala/KmeansDataGen$$anonfun$main$1.class -> lastModified(1433745636000)
+/home/hduser/SparkBench/spark_app/kmeans/target/scala-2.10/classes/kmeans_min/src/main/scala/KmeansDataGen$.class -> lastModified(1433745636000)
+/home/hduser/SparkBench/spark_app/kmeans/target/scala-2.10/classes/kmeans_min/src/main/scala/KmeansDataGen.class -> lastModified(1433745636000)
+source stamps:
+2 items
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/KmeansDataGen.scala -> hash(65e44a898cad213bd63e2357d7b93c2c1aa794e3)
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/kmeans.scala -> hash(f1b5adbe3514969d4050c90b27c4348a3588db3d)
+binary stamps:
+4 items
+/home/hduser/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.3.0.jar -> lastModified(1425598998000)
+/home/hduser/.ivy2/cache/org.apache.spark/spark-mllib_2.10/jars/spark-mllib_2.10-1.3.0.jar -> lastModified(1425599015000)
+/home/hduser/.sbt/boot/scala-2.10.4/lib/scala-library.jar -> lastModified(1395179187000)
+/usr/lib/jvm/java-8-openjdk-ppc64el/jre/lib/rt.jar -> lastModified(1429490379000)
+class names:
+4 items
+/home/hduser/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.3.0.jar -> org.apache.spark.SparkConf
+/home/hduser/.ivy2/cache/org.apache.spark/spark-mllib_2.10/jars/spark-mllib_2.10-1.3.0.jar -> org.apache.spark.mllib.clustering.KMeansModel
+/home/hduser/.sbt/boot/scala-2.10.4/lib/scala-library.jar -> scala.Int
+/usr/lib/jvm/java-8-openjdk-ppc64el/jre/lib/rt.jar -> java.lang.Object
+internal apis:
+2 items
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/KmeansDataGen.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHDl6i0iAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAFXNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cI5wuoV0AAZub3RpZnlzcQB+AAw90B6zdAAEd2FpdHNxAH4ADAlC+LV0AA0kYXNJbnN0YW5jZU9mc3EAfgAMhpth83QABmVxdWFsc3NxAH4ADEwzUVx0AAxhc0luc3RhbmNlT2ZzcQB+AAz1VAqedAAMc3luY2hyb25pemVkc3EAfgAMMA5XcnQADSRpc0luc3RhbmNlT2ZzcQB+AAx+pc84dAAEbWFpbnNxAH4ADHJR3FB0AAlub3RpZnlBbGxzcQB+AAyAjocXdAAMaXNJbnN0YW5jZU9mc3EAfgAMZZmFGHQAAj09c3EAfgAMbEUyMXQABWNsb25lc3EAfgAM9bt4pnQACHRvU3RyaW5nc3EAfgAMqiUMR3QAAiE9c3EAfgAMygFdv3QACGdldENsYXNzc3EAfgAMxz+FJHQAAm5lc3EAfgAMCfxSgXQAAmVxc3EAfgAMjagPFXQADUttZWFuc0RhdGFHZW5zcQB+AAzTT4U9dAACIyNzcQB+AAzJSzJxdAAIZmluYWxpemVzcQB+AAyCO1PYdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBBeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAAna21lYW5zX21pbi5zcmMubWFpbi5zY2FsYS5LbWVhbnNEYXRhR2VudXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAHBzcgAgeHNidGkuU2FmZUxhenkkJGFub25mdW4kc3RyaWN0JDEAAAAAAAAAAAIAAUwAB3ZhbHVlJDFxAH4AWnhwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AWQBwc3EAfgBec3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AEFMAAlpbmhlcml0ZWRxAH4AQUwAB3BhcmVudHNxAH4AQXhxAH4AYnNxAH4AWQBwc3EAfgBedXEAfgA8AAAAAXNyAA14c2J0aS5hcGkuRGVmUr6f4ny0NmkCAAJMAApyZXR1cm5UeXBldAAQTHhzYnRpL2FwaS9UeXBlO1sAD3ZhbHVlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1BhcmFtZXRlckxpc3Q7eHEAfgBCcQB+AEt1cQB+AEwAAAAAc3EAfgBOAHEAfgAddXEAfgBRAAAAAHNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AGF0AARVbml0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBhc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAACc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AAVzY2FsYXNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgB/dXIAGltMeHNidGkuYXBpLlBhcmFtZXRlckxpc3Q79dM6HfKzcO4CAAB4cAAAAAFzcgAXeHNidGkuYXBpLlBhcmFtZXRlckxpc3TWxbwcZEl04wIAAloACmlzSW1wbGljaXRbAApwYXJhbWV0ZXJzdAAcW0x4c2J0aS9hcGkvTWV0aG9kUGFyYW1ldGVyO3hwAHVyABxbTHhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXI7z7jFXaXdtW0CAAB4cAAAAAFzcgAZeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlch9FrhfTSbDqAgAEWgAKaGFzRGVmYXVsdEwACG1vZGlmaWVydAAdTHhzYnRpL2FwaS9QYXJhbWV0ZXJNb2RpZmllcjtMAARuYW1lcQB+AA1MAAN0cGVxAH4AbHhwAH5yABt4c2J0aS5hcGkuUGFyYW1ldGVyTW9kaWZpZXIAAAAAAAAAABIAAHhxAH4AVHQABVBsYWludAAEYXJnc3NyABd4c2J0aS5hcGkuUGFyYW1ldGVyaXplZBZs7mkDybt/AgACTAAIYmFzZVR5cGVxAH4Ac1sADXR5cGVBcmd1bWVudHN0ABFbTHhzYnRpL2FwaS9UeXBlO3hxAH4AYXNxAH4AcnQABUFycmF5cQB+AHh1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAXNxAH4AcnQABlN0cmluZ3NxAH4AdnNxAH4AeXVxAH4AfAAAAANzcQB+AH50AARqYXZhc3EAfgB+dAAEbGFuZ3EAfgCDc3EAfgBZAHBzcQB+AF51cQB+ADwAAAAAc3EAfgBZAHBzcQB+AF51cQB+AJcAAAACc3EAfgBydAAGT2JqZWN0cQB+AJtzcQB+AHJ0AANBbnlxAH4AeHVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAEc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQADmttZWFuc19taW4uc3Jjc3EAfgCudAAKa21lYW5zX21pbnNxAH4ArnQAE2ttZWFuc19taW4uc3JjLm1haW5zcQB+AK50ABlrbWVhbnNfbWluLnNyYy5tYWluLnNjYWxhc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFN0eYtO3VyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AEIvaG9tZS9oZHVzZXIvU3BhcmtCZW5jaC9zcGFya19hcHAva21lYW5zL3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABRl5EqJjK0hO9Y+I1fXuTwsGqeU4w==
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/kmeans.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHDUswT7AHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAFnNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cDOqDWF0AAZub3RpZnlzcQB+AAyh1SOJdAAEd2FpdHNxAH4ADJ0iMi50AA0kYXNJbnN0YW5jZU9mc3EAfgAM1tZvOXQABmVxdWFsc3NxAH4ADJBXScJ0AA1jYWxjdWxhdGVSdW5zc3EAfgAMpdTaVHQADGFzSW5zdGFuY2VPZnNxAH4ADB48SLZ0AAxzeW5jaHJvbml6ZWRzcQB+AAwXdviadAANJGlzSW5zdGFuY2VPZnNxAH4ADLT9MFV0AAlLbWVhbnNBcHBzcQB+AAw6g5JTdAAEbWFpbnNxAH4ADOdW/8d0AAlub3RpZnlBbGxzcQB+AAybGoRHdAAMaXNJbnN0YW5jZU9mc3EAfgAM4EPLSXQAAj09c3EAfgAMpZeG2nQABWNsb25lc3EAfgAMSKB1QHQACHRvU3RyaW5nc3EAfgAME1Ac2nQAAiE9c3EAfgAMjwuJ63QACGdldENsYXNzc3EAfgAMLEXtxHQAAm5lc3EAfgAMMlDh0XQAAmVxc3EAfgAM5N5INXQAAiMjc3EAfgAMrm6wUHQACGZpbmFsaXplc3EAfgAMAz5+nnQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AQ3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHEAfgAfdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAHBzcgAgeHNidGkuU2FmZUxhenkkJGFub25mdW4kc3RyaWN0JDEAAAAAAAAAAAIAAUwAB3ZhbHVlJDFxAH4AW3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AWgBwc3EAfgBfc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AENMAAlpbmhlcml0ZWRxAH4AQ0wAB3BhcmVudHNxAH4AQ3hxAH4AY3NxAH4AWgBwc3EAfgBfdXEAfgA+AAAAAXNyAA14c2J0aS5hcGkuRGVmUr6f4ny0NmkCAAJMAApyZXR1cm5UeXBldAAQTHhzYnRpL2FwaS9UeXBlO1sAD3ZhbHVlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1BhcmFtZXRlckxpc3Q7eHEAfgBEcQB+AE11cQB+AE4AAAAAc3EAfgBQAHEAfgAhdXEAfgBSAAAAAHNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AGJ0AARVbml0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBic3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAACc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AAVzY2FsYXNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCAdXIAGltMeHNidGkuYXBpLlBhcmFtZXRlckxpc3Q79dM6HfKzcO4CAAB4cAAAAAFzcgAXeHNidGkuYXBpLlBhcmFtZXRlckxpc3TWxbwcZEl04wIAAloACmlzSW1wbGljaXRbAApwYXJhbWV0ZXJzdAAcW0x4c2J0aS9hcGkvTWV0aG9kUGFyYW1ldGVyO3hwAHVyABxbTHhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXI7z7jFXaXdtW0CAAB4cAAAAAFzcgAZeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlch9FrhfTSbDqAgAEWgAKaGFzRGVmYXVsdEwACG1vZGlmaWVydAAdTHhzYnRpL2FwaS9QYXJhbWV0ZXJNb2RpZmllcjtMAARuYW1lcQB+AA1MAAN0cGVxAH4AbXhwAH5yABt4c2J0aS5hcGkuUGFyYW1ldGVyTW9kaWZpZXIAAAAAAAAAABIAAHhxAH4AVXQABVBsYWludAAEYXJnc3NyABd4c2J0aS5hcGkuUGFyYW1ldGVyaXplZBZs7mkDybt/AgACTAAIYmFzZVR5cGVxAH4AdFsADXR5cGVBcmd1bWVudHN0ABFbTHhzYnRpL2FwaS9UeXBlO3hxAH4AYnNxAH4Ac3QABUFycmF5cQB+AHl1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAXNxAH4Ac3QABlN0cmluZ3NxAH4Ad3NxAH4AenVxAH4AfQAAAANzcQB+AH90AARqYXZhc3EAfgB/dAAEbGFuZ3EAfgCEc3EAfgBaAHBzcQB+AF91cQB+AD4AAAAAc3EAfgBaAHBzcQB+AF91cQB+AJgAAAACc3EAfgBzdAAGT2JqZWN0cQB+AJxzcQB+AHN0AANBbnlxAH4AeXVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAAc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFN0eYtO3VyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AEIvaG9tZS9oZHVzZXIvU3BhcmtCZW5jaC9zcGFya19hcHAva21lYW5zL3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABTxta2+NRSWnUBQyQsnxDSKNYjbPQ==
+external apis:
+0 items
+source infos:
+2 items
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/KmeansDataGen.scala -> 
+AAAAAAAAAAA=
+/home/hduser/SparkBench/spark_app/kmeans/src/main/scala/kmeans.scala -> 
+AAAAAAAAAAA=
+compilations:
+1 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTdHmLTt1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQi9ob21lL2hkdXNlci9TcGFya0JlbmNoL3NwYXJrX2FwcC9rbWVhbnMvdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS8=

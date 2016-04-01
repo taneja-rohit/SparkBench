@@ -1,0 +1,436 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /home/hduser/SparkBench/spark_app/sql/target/scala-2.10/classes
+compile options:
+0 items
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.10.4
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+22 items
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> /home/hduser/SparkBench/spark_app/sql/target/scala-2.10/classes/src/main/scala/HiveFromSpark$$anonfun$1.class
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> /home/hduser/SparkBench/spark_app/sql/target/scala-2.10/classes/src/main/scala/HiveFromSpark$$anonfun$2.class
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> /home/hduser/SparkBench/spark_app/sql/target/scala-2.10/classes/src/main/scala/HiveFromSpark$$typecreator1$1.class
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> /home/hduser/SparkBench/spark_app/sql/target/scala-2.10/classes/src/main/scala/HiveFromSpark$$typecreator2$1.class
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> /home/hduser/SparkBench/spark_app/sql/target/scala-2.10/classes/src/main/scala/HiveFromSpark$.class
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> /home/hduser/SparkBench/spark_app/sql/target/scala-2.10/classes/src/main/scala/HiveFromSpark$OItem$.class
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> /home/hduser/SparkBench/spark_app/sql/target/scala-2.10/classes/src/main/scala/HiveFromSpark$OItem.class
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> /home/hduser/SparkBench/spark_app/sql/target/scala-2.10/classes/src/main/scala/HiveFromSpark$Order$.class
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> /home/hduser/SparkBench/spark_app/sql/target/scala-2.10/classes/src/main/scala/HiveFromSpark$Order.class
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> /home/hduser/SparkBench/spark_app/sql/target/scala-2.10/classes/src/main/scala/HiveFromSpark.class
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> /home/hduser/SparkBench/spark_app/sql/target/scala-2.10/classes/src/main/scala/OItem$.class
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> /home/hduser/SparkBench/spark_app/sql/target/scala-2.10/classes/src/main/scala/OItem.class
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> /home/hduser/SparkBench/spark_app/sql/target/scala-2.10/classes/src/main/scala/Order$.class
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> /home/hduser/SparkBench/spark_app/sql/target/scala-2.10/classes/src/main/scala/Order.class
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> /home/hduser/SparkBench/spark_app/sql/target/scala-2.10/classes/src/main/scala/RDDRelation$$anonfun$1.class
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> /home/hduser/SparkBench/spark_app/sql/target/scala-2.10/classes/src/main/scala/RDDRelation$$anonfun$2.class
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> /home/hduser/SparkBench/spark_app/sql/target/scala-2.10/classes/src/main/scala/RDDRelation$$typecreator1$1.class
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> /home/hduser/SparkBench/spark_app/sql/target/scala-2.10/classes/src/main/scala/RDDRelation$$typecreator2$1.class
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> /home/hduser/SparkBench/spark_app/sql/target/scala-2.10/classes/src/main/scala/RDDRelation$.class
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> /home/hduser/SparkBench/spark_app/sql/target/scala-2.10/classes/src/main/scala/RDDRelation.class
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> /home/hduser/SparkBench/spark_app/sql/target/scala-2.10/classes/src/main/scala/Record$.class
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> /home/hduser/SparkBench/spark_app/sql/target/scala-2.10/classes/src/main/scala/Record.class
+binary dependencies:
+14 items
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> /home/hduser/.ivy2/cache/com.google.guava/guava/bundles/guava-16.0.1.jar
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> /home/hduser/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> /home/hduser/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.4.0.jar
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> /home/hduser/.ivy2/cache/org.apache.spark/spark-hive_2.10/jars/spark-hive_2.10-1.4.0.jar
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> /home/hduser/.ivy2/cache/org.apache.spark/spark-sql_2.10/jars/spark-sql_2.10-1.4.0.jar
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> /home/hduser/.sbt/boot/scala-2.10.4/lib/scala-library.jar
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> /home/hduser/.sbt/boot/scala-2.10.4/lib/scala-reflect.jar
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> /usr/lib/jvm/java-8-openjdk-ppc64el/jre/lib/rt.jar
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> /home/hduser/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> /home/hduser/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.4.0.jar
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> /home/hduser/.ivy2/cache/org.apache.spark/spark-sql_2.10/jars/spark-sql_2.10-1.4.0.jar
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> /home/hduser/.sbt/boot/scala-2.10.4/lib/scala-library.jar
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> /home/hduser/.sbt/boot/scala-2.10.4/lib/scala-reflect.jar
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> /usr/lib/jvm/java-8-openjdk-ppc64el/jre/lib/rt.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+0 items
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+22 items
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> src.main.scala.HiveFromSpark
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> src.main.scala.HiveFromSpark$
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> src.main.scala.HiveFromSpark$$anonfun$1
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> src.main.scala.HiveFromSpark$$anonfun$2
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> src.main.scala.HiveFromSpark$$typecreator1$1
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> src.main.scala.HiveFromSpark$$typecreator2$1
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> src.main.scala.HiveFromSpark$OItem
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> src.main.scala.HiveFromSpark$OItem$
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> src.main.scala.HiveFromSpark$Order
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> src.main.scala.HiveFromSpark$Order$
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> src.main.scala.OItem
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> src.main.scala.OItem$
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> src.main.scala.Order
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> src.main.scala.Order$
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> src.main.scala.RDDRelation
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> src.main.scala.RDDRelation$
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> src.main.scala.RDDRelation$$anonfun$1
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> src.main.scala.RDDRelation$$anonfun$2
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> src.main.scala.RDDRelation$$typecreator1$1
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> src.main.scala.RDDRelation$$typecreator2$1
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> src.main.scala.Record
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> src.main.scala.Record$
+used names:
+269 items
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> !=
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> $m
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> $m$untyped
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> $typecreator1
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> $typecreator2
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> $u
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> &&
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> +
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> <init>
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> ==
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> AbstractFunction3
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> AbstractFunction6
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> AnyRef
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> Array
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> ByteStreams
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> ClassTag
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> Double
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> File
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> Files
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> HiveContext
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> HiveFromSpark
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> Int
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> Level
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> Logger
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> Long
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> MEMORY_AND_DISK
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> MEMORY_AND_DISK_SER
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> MEMORY_ONLY
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> Mirror
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> None
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> Nothing
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> OFF
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> OItem
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> Order
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> Predef
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> Product
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> ScalaRunTime
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> Serializable
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> Singleton
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> SparkConf
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> SparkContext
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> Statics
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> StorageLevel
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> String
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> StringContext
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> System
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> Type
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> TypeCreator
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> TypeTag
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> U
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> Unit
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> Universe
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> WARN
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> _toString
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> anyHash
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> apache
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> apply
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> args
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> asInstanceOf
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> asType
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> augmentString
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> bid
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> cnt
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> com
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> common
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> count
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> cts
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> data
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> doubleHash
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> eq
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> exit
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> finalizeHash
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> getClass
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> getClassLoader
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> getLogger
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> gid
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> gnum
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> google
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> gstore
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> hive
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> hiveContext
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> iid
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> implicits
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> inputPath
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> io
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> isInstanceOf
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> java
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> lang
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> length
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> line
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> log4j
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> longHash
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> main
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> map
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> materializeClassTag
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> materializeTypeTag
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> mix
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> numpar
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> oid
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> oitemRdd
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> orderRdd
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> org
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> package
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> persist
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> price
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> println
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> rddToDataFrameHolder
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> reflect
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> registerTempTable
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> runtime
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> runtimeMirror
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> s
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> sc
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> scala
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> setAppName
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> setLevel
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> sl
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> spark
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> sparkConf
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> split
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> sql
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> src
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> staticClass
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> stop
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> storage
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> storageLevel
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> textFile
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> toDF
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> toDouble
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> toInt
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> toLong
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> toString
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> toTypeConstructor
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> typedProductIterator
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> universe
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> ||
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> !=
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> $m
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> $m$untyped
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> $typecreator1
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> $typecreator2
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> $u
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> &&
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> +
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> <init>
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> ==
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> AbstractFunction2
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> AbstractFunction3
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> AbstractFunction6
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> AnyRef
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> Array
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> ClassTag
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> Double
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> Int
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> Level
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> Logger
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> Long
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> MEMORY_AND_DISK
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> MEMORY_AND_DISK_SER
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> MEMORY_ONLY
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> Mirror
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> None
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> Nothing
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> OFF
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> OItem
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> Order
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> Predef
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> Product
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> RDDRelation
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> Record
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> SQLContext
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> ScalaRunTime
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> Serializable
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> Singleton
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> SparkConf
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> SparkContext
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> Statics
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> StorageLevel
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> String
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> StringContext
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> System
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> Type
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> TypeCreator
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> TypeTag
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> U
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> Unit
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> Universe
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> WARN
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> _toString
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> anyHash
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> apache
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> apply
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> args
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> asInstanceOf
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> asType
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> augmentString
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> bid
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> cnt
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> conf
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> count
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> cts
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> data
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> doubleHash
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> eq
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> exit
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> finalizeHash
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> getClass
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> getClassLoader
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> getLogger
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> gid
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> gnum
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> gstore
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> iid
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> implicits
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> inputPath
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> isInstanceOf
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> java
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> key
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> lang
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> length
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> line
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> log4j
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> longHash
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> main
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> map
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> materializeClassTag
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> materializeTypeTag
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> mix
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> numpar
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> oid
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> oitemRdd
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> orderRdd
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> org
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> package
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> persist
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> price
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> println
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> rdd
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> rddToDataFrameHolder
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> reflect
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> registerTempTable
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> runtime
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> runtimeMirror
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> s
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> sc
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> scala
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> setAppName
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> setLevel
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> sl
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> spark
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> split
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> sql
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> sqlContext
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> src
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> staticClass
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> stop
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> storage
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> storageLevel
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> textFile
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> toDF
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> toDouble
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> toInt
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> toLong
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> toString
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> toTypeConstructor
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> typedProductIterator
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> universe
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> value
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> ||
+product stamps:
+22 items
+/home/hduser/SparkBench/spark_app/sql/target/scala-2.10/classes/src/main/scala/HiveFromSpark$$anonfun$1.class -> lastModified(1435594367000)
+/home/hduser/SparkBench/spark_app/sql/target/scala-2.10/classes/src/main/scala/HiveFromSpark$$anonfun$2.class -> lastModified(1435594367000)
+/home/hduser/SparkBench/spark_app/sql/target/scala-2.10/classes/src/main/scala/HiveFromSpark$$typecreator1$1.class -> lastModified(1435594367000)
+/home/hduser/SparkBench/spark_app/sql/target/scala-2.10/classes/src/main/scala/HiveFromSpark$$typecreator2$1.class -> lastModified(1435594367000)
+/home/hduser/SparkBench/spark_app/sql/target/scala-2.10/classes/src/main/scala/HiveFromSpark$.class -> lastModified(1435594367000)
+/home/hduser/SparkBench/spark_app/sql/target/scala-2.10/classes/src/main/scala/HiveFromSpark$OItem$.class -> lastModified(1435594367000)
+/home/hduser/SparkBench/spark_app/sql/target/scala-2.10/classes/src/main/scala/HiveFromSpark$OItem.class -> lastModified(1435594367000)
+/home/hduser/SparkBench/spark_app/sql/target/scala-2.10/classes/src/main/scala/HiveFromSpark$Order$.class -> lastModified(1435594367000)
+/home/hduser/SparkBench/spark_app/sql/target/scala-2.10/classes/src/main/scala/HiveFromSpark$Order.class -> lastModified(1435594367000)
+/home/hduser/SparkBench/spark_app/sql/target/scala-2.10/classes/src/main/scala/HiveFromSpark.class -> lastModified(1435594367000)
+/home/hduser/SparkBench/spark_app/sql/target/scala-2.10/classes/src/main/scala/OItem$.class -> lastModified(1435594367000)
+/home/hduser/SparkBench/spark_app/sql/target/scala-2.10/classes/src/main/scala/OItem.class -> lastModified(1435594367000)
+/home/hduser/SparkBench/spark_app/sql/target/scala-2.10/classes/src/main/scala/Order$.class -> lastModified(1435594367000)
+/home/hduser/SparkBench/spark_app/sql/target/scala-2.10/classes/src/main/scala/Order.class -> lastModified(1435594367000)
+/home/hduser/SparkBench/spark_app/sql/target/scala-2.10/classes/src/main/scala/RDDRelation$$anonfun$1.class -> lastModified(1435594367000)
+/home/hduser/SparkBench/spark_app/sql/target/scala-2.10/classes/src/main/scala/RDDRelation$$anonfun$2.class -> lastModified(1435594367000)
+/home/hduser/SparkBench/spark_app/sql/target/scala-2.10/classes/src/main/scala/RDDRelation$$typecreator1$1.class -> lastModified(1435594367000)
+/home/hduser/SparkBench/spark_app/sql/target/scala-2.10/classes/src/main/scala/RDDRelation$$typecreator2$1.class -> lastModified(1435594367000)
+/home/hduser/SparkBench/spark_app/sql/target/scala-2.10/classes/src/main/scala/RDDRelation$.class -> lastModified(1435594367000)
+/home/hduser/SparkBench/spark_app/sql/target/scala-2.10/classes/src/main/scala/RDDRelation.class -> lastModified(1435594367000)
+/home/hduser/SparkBench/spark_app/sql/target/scala-2.10/classes/src/main/scala/Record$.class -> lastModified(1435594367000)
+/home/hduser/SparkBench/spark_app/sql/target/scala-2.10/classes/src/main/scala/Record.class -> lastModified(1435594367000)
+source stamps:
+2 items
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> hash(9adbbf78b0d151409c80dd14a0ded4921a55c86f)
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> hash(c0e8fa1afb1ccc7c9211e9e00578b61f36141470)
+binary stamps:
+8 items
+/home/hduser/.ivy2/cache/com.google.guava/guava/bundles/guava-16.0.1.jar -> lastModified(1391467528000)
+/home/hduser/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar -> lastModified(1338025419000)
+/home/hduser/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.4.0.jar -> lastModified(1433966084000)
+/home/hduser/.ivy2/cache/org.apache.spark/spark-hive_2.10/jars/spark-hive_2.10-1.4.0.jar -> lastModified(1433966147000)
+/home/hduser/.ivy2/cache/org.apache.spark/spark-sql_2.10/jars/spark-sql_2.10-1.4.0.jar -> lastModified(1433966070000)
+/home/hduser/.sbt/boot/scala-2.10.4/lib/scala-library.jar -> lastModified(1395179187000)
+/home/hduser/.sbt/boot/scala-2.10.4/lib/scala-reflect.jar -> lastModified(1395179222000)
+/usr/lib/jvm/java-8-openjdk-ppc64el/jre/lib/rt.jar -> lastModified(1429490379000)
+class names:
+8 items
+/home/hduser/.ivy2/cache/com.google.guava/guava/bundles/guava-16.0.1.jar -> com.google.common.io.ByteStreams
+/home/hduser/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar -> org.apache.log4j.Level
+/home/hduser/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.4.0.jar -> org.apache.spark.storage.StorageLevel$
+/home/hduser/.ivy2/cache/org.apache.spark/spark-hive_2.10/jars/spark-hive_2.10-1.4.0.jar -> org.apache.spark.sql.hive.HiveContext$
+/home/hduser/.ivy2/cache/org.apache.spark/spark-sql_2.10/jars/spark-sql_2.10-1.4.0.jar -> org.apache.spark.sql.SQLContext$
+/home/hduser/.sbt/boot/scala-2.10.4/lib/scala-library.jar -> scala.Product
+/home/hduser/.sbt/boot/scala-2.10.4/lib/scala-reflect.jar -> scala.reflect.api.TypeCreator
+/usr/lib/jvm/java-8-openjdk-ppc64el/jre/lib/rt.jar -> java.lang.Object
+internal apis:
+2 items
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHCS7/JOAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAMXNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cDNuoad0AAZub3RpZnlzcQB+AAyDAN5HdAAHdW5hcHBseXNxAH4ADDB6JQ90AAdjdXJyaWVkc3EAfgAMrAaXq3QABHdhaXRzcQB+AAxtiabLdAAOY29weSRkZWZhdWx0JDJzcQB+AAzHUNcddAANJGFzSW5zdGFuY2VPZnNxAH4ADLDAatR0AA5jb3B5JGRlZmF1bHQkNXNxAH4ADLtAHlZ0AAxwcm9kdWN0QXJpdHlzcQB+AAxukgqTdAAGZXF1YWxzc3EAfgAMR33R1HQAA2dpZHNxAH4ADPX6mP50AAxhc0luc3RhbmNlT2ZzcQB+AAwZBVjYdAAFcHJpY2VzcQB+AAz0VfOOdAADb2lkc3EAfgAMaiYW2HQADHN5bmNocm9uaXplZHNxAH4ADJRHmBh0AA1IaXZlRnJvbVNwYXJrc3EAfgAM7T94THQADSRpc0luc3RhbmNlT2ZzcQB+AAyaOCdSdAAGdHVwbGVkc3EAfgAMKRjIlHQACGNhbkVxdWFsc3EAfgAMyq2nynQADmNvcHkkZGVmYXVsdCQ0c3EAfgAMebRzeHQABG1haW5zcQB+AAwVtOfBdAANcHJvZHVjdFByZWZpeHNxAH4ADE3meWd0AAlub3RpZnlBbGxzcQB+AAwgxMWMdAALcmVhZFJlc29sdmVzcQB+AAwLSfj8dAADY3Rzc3EAfgAMvqXHTXQADGlzSW5zdGFuY2VPZnNxAH4ADGMZD450AANpaWRzcQB+AAxyqBlydAAGPGluaXQ+c3EAfgAMl9ViCnQABWFwcGx5c3EAfgAM1f2ci3QABGdudW1zcQB+AAxWL5WPdAACPT1zcQB+AAwhcnlhdAAFY2xvbmVzcQB+AAxZ+d7+dAAOY29weSRkZWZhdWx0JDNzcQB+AAzmCDwFdAAEY29weXNxAH4ADJcPg390AAh0b1N0cmluZ3NxAH4ADHt9pKJ0AAIhPXNxAH4ADL0Mn9p0AAVPSXRlbXNxAH4ADIpUdXt0AAVPcmRlcnNxAH4ADFiZ8aF0AAhnZXRDbGFzc3NxAH4ADJiC7mp0AA5jb3B5JGRlZmF1bHQkMXNxAH4ADJUGkhB0AANiaWRzcQB+AAwZmb7pdAAOY29weSRkZWZhdWx0JDZzcQB+AAxQJuo2dAAGZ3N0b3Jlc3EAfgAMveyybnQAAm5lc3EAfgAMBiCfDHQAAmVxc3EAfgAMDdnjr3QAD3Byb2R1Y3RJdGVyYXRvcnNxAH4ADAtdun10AAIjI3NxAH4ADJzFE+t0AAhmaW5hbGl6ZXNxAH4ADI6CDoR0AA5wcm9kdWN0RWxlbWVudHNxAH4ADBESkfJ0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AHl4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cAB0ABxzcmMubWFpbi5zY2FsYS5IaXZlRnJvbVNwYXJrdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAHBzcgAgeHNidGkuU2FmZUxhenkkJGFub25mdW4kc3RyaWN0JDEAAAAAAAAAAAIAAUwAB3ZhbHVlJDFxAH4Aknhwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AkQBwc3EAfgCWc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AHlMAAlpbmhlcml0ZWRxAH4AeUwAB3BhcmVudHNxAH4AeXhxAH4AmnNxAH4AkQBwc3EAfgCWdXEAfgB0AAAAAXNyAA14c2J0aS5hcGkuRGVmUr6f4ny0NmkCAAJMAApyZXR1cm5UeXBldAAQTHhzYnRpL2FwaS9UeXBlO1sAD3ZhbHVlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1BhcmFtZXRlckxpc3Q7eHEAfgB6cQB+AIN1cQB+AIQAAAAAc3EAfgCGAHEAfgA1dXEAfgCJAAAAAHNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AJl0AARVbml0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgCZc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAACc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AAVzY2FsYXNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgC3dXIAGltMeHNidGkuYXBpLlBhcmFtZXRlckxpc3Q79dM6HfKzcO4CAAB4cAAAAAFzcgAXeHNidGkuYXBpLlBhcmFtZXRlckxpc3TWxbwcZEl04wIAAloACmlzSW1wbGljaXRbAApwYXJhbWV0ZXJzdAAcW0x4c2J0aS9hcGkvTWV0aG9kUGFyYW1ldGVyO3hwAHVyABxbTHhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXI7z7jFXaXdtW0CAAB4cAAAAAFzcgAZeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlch9FrhfTSbDqAgAEWgAKaGFzRGVmYXVsdEwACG1vZGlmaWVydAAdTHhzYnRpL2FwaS9QYXJhbWV0ZXJNb2RpZmllcjtMAARuYW1lcQB+AA1MAAN0cGVxAH4ApHhwAH5yABt4c2J0aS5hcGkuUGFyYW1ldGVyTW9kaWZpZXIAAAAAAAAAABIAAHhxAH4AjHQABVBsYWludAAEYXJnc3NyABd4c2J0aS5hcGkuUGFyYW1ldGVyaXplZBZs7mkDybt/AgACTAAIYmFzZVR5cGVxAH4Aq1sADXR5cGVBcmd1bWVudHN0ABFbTHhzYnRpL2FwaS9UeXBlO3hxAH4AmXNxAH4AqnQABUFycmF5cQB+ALB1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAXNxAH4AqnQABlN0cmluZ3NxAH4ArnNxAH4AsXVxAH4AtAAAAANzcQB+ALZ0AARqYXZhc3EAfgC2dAAEbGFuZ3EAfgC7c3EAfgCRAHBzcQB+AJZ1cQB+AHQAAAAAc3EAfgCRAHBzcQB+AJZ1cQB+AM8AAAACc3EAfgCqdAAGT2JqZWN0cQB+ANNzcQB+AKp0AANBbnlxAH4AsHVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAADc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQACHNyYy5tYWluc3EAfgDmdAAOc3JjLm1haW4uc2NhbGFzcQB+AOZ0AANzcmNzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAU5AF4qadXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAPy9ob21lL2hkdXNlci9TcGFya0JlbmNoL3NwYXJrX2FwcC9zcWwvdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFJrbv3iw0VFAnIDdFKDe1JIaVchv
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHDz62BtAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAL3NyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cDO/F2t0AAZub3RpZnlzcQB+AAxbkVzSdAAEd2FpdHNxAH4ADN4RbYB0AA5jb3B5JGRlZmF1bHQkMnNxAH4ADJigo8h0AA0kYXNJbnN0YW5jZU9mc3EAfgAMHu9X6HQADmNvcHkkZGVmYXVsdCQ1c3EAfgAMXoQHwHQADHByb2R1Y3RBcml0eXNxAH4ADEviVvF0AAZlcXVhbHNzcQB+AAyUXw1FdAADZ2lkc3EAfgAMxzjNJXQADGFzSW5zdGFuY2VPZnNxAH4ADBvxo3d0AAVwcmljZXNxAH4ADPCNKXZ0AANvaWRzcQB+AAw2+yjqdAAMc3luY2hyb25pemVkc3EAfgAMgJk/qnQADSRpc0luc3RhbmNlT2ZzcQB+AAzFiyiadAAIY2FuRXF1YWxzcQB+AAzmUlMFdAAOY29weSRkZWZhdWx0JDRzcQB+AAyXXi52dAAEbWFpbnNxAH4ADNKQDph0AA1wcm9kdWN0UHJlZml4c3EAfgAMUzTHu3QACW5vdGlmeUFsbHNxAH4ADOfecaV0AANjdHNzcQB+AAyjOUaddAADa2V5c3EAfgAMuhkzdXQADGlzSW5zdGFuY2VPZnNxAH4ADKGU1150AANpaWRzcQB+AAzq9BeedAAGPGluaXQ+c3EAfgAMzfn5bHQABGdudW1zcQB+AAw04wTtdAACPT1zcQB+AAzMzwrRdAAGUmVjb3Jkc3EAfgAMzY23nnQABWNsb25lc3EAfgAMpjNH0nQADmNvcHkkZGVmYXVsdCQzc3EAfgAMha1zlHQABGNvcHlzcQB+AAxR2MCxdAAIdG9TdHJpbmdzcQB+AAwAfuwCdAACIT1zcQB+AAxJ5T6QdAAFT0l0ZW1zcQB+AAwaGjUGdAAFT3JkZXJzcQB+AAwUlk38dAAIZ2V0Q2xhc3NzcQB+AAxfHAUodAAOY29weSRkZWZhdWx0JDFzcQB+AAxbhfkHdAALUkREUmVsYXRpb25zcQB+AAxJ0eOWdAADYmlkc3EAfgAMVymeUXQADmNvcHkkZGVmYXVsdCQ2c3EAfgAMNAvBCXQABmdzdG9yZXNxAH4ADPPazfV0AAJuZXNxAH4ADEZuZqV0AAV2YWx1ZXNxAH4ADD2vSZR0AAJlcXNxAH4ADDs4Dk90AA9wcm9kdWN0SXRlcmF0b3JzcQB+AAwFu69TdAACIyNzcQB+AAwN3MJodAAIZmluYWxpemVzcQB+AAzw+qwPdAAOcHJvZHVjdEVsZW1lbnRzcQB+AAz382gHdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAAEc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgB1eHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAAVc3JjLm1haW4uc2NhbGEuUmVjb3JkdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAIQ2xhc3NEZWZ1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHAAcHNyACB4c2J0aS5TYWZlTGF6eSQkYW5vbmZ1biRzdHJpY3QkMQAAAAAAAAAAAgABTAAHdmFsdWUkMXEAfgCOeHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgCNAHBzcQB+AJJzcgATeHNidGkuYXB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AD3ZhbHVlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1BhcmFtZXRlckxpc3Q7eHEAfgB2cQB+AH91cQB+AIAAAAAAc3EAfgCCAHEAfgAtdXEAfgCFAAAAAHNxAH4ApnQABFVuaXRzcQB+AKpzcQB+AK11cQB+ALAAAAACc3EAfgCycQB+ALVxAH4At3VyABpbTHhzYnRpLmFwaS5QYXJhbWV0ZXJMaXN0O/XTOh3ys3DuAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJMaXN01sW8HGRJdOMCAAJaAAppc0ltcGxpY2l0WwAKcGFyYW1ldGVyc3QAHFtMeHNidGkvYXBpL01ldGhvZFBhcmFtZXRlcjt4cAB1cgAcW0x4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyO8+4xV2l3bVtAgAAeHAAAAABc3IAGXhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXIfRa4X00mw6gIABFoACmhhc0RlZmF1bHRMAAhtb2RpZmllcnQAHUx4c2J0aS9hcGkvUGFyYW1ldGVyTW9kaWZpZXI7TAAEbmFtZXEAfgANTAADdHBlcQB+ATN4cAB+cgAbeHNidGkuYXBpLlBhcmFtZXRlck1vZGlmaWVyAAAAAAAAAAASAAB4cQB+AIh0AAVQbGFpbnQABGFyZ3NzcgAXeHNidGkuYXBpLlBhcmFtZXRlcml6ZWQWbO5pA8m7fwIAAkwACGJhc2VUeXBlcQB+AKdbAA10eXBlQXJndW1lbnRzdAARW0x4c2J0aS9hcGkvVHlwZTt4cQB+AJVzcQB+AKZ0AAVBcnJheXEAfgE7dXEAfgCkAAAAAXNxAH4ApnQABlN0cmluZ3NxAH4AqnNxAH4ArXVxAH4AsAAAAANzcQB+ALJxAH4AvXNxAH4AsnEAfgDLcQB+ALdzcQB+AI0AcHNxAH4AknVxAH4AcAAAAABzcQB+AI0AcHNxAH4AknVxAH4ApAAAAAJzcQB+AKZxAH4AxXEAfgFVc3EAfgCmcQB+AM1xAH4BO3VyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAADc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQACHNyYy5tYWluc3EAfgFkdAAOc3JjLm1haW4uc2NhbGFzcQB+AWR0AANzcmNzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAU5AF4qadXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAPy9ob21lL2hkdXNlci9TcGFya0JlbmNoL3NwYXJrX2FwcC9zcWwvdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFMDo+hr7HMx8khHp4AV4th82FBRw
+external apis:
+0 items
+source infos:
+2 items
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/HiveFromSpark.scala -> 
+AAAAAAAAAAA=
+/home/hduser/SparkBench/spark_app/sql/src/main/scala/RDDRelation.scala -> 
+AAAAAAAAAAA=
+compilations:
+1 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTkAXipp1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAPy9ob21lL2hkdXNlci9TcGFya0JlbmNoL3NwYXJrX2FwcC9zcWwvdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS8=
